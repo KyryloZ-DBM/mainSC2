@@ -122,6 +122,28 @@
                 "UserName": "KyryloZhdanov",
                 "Password": "5ykAcgNlBdLSoBEskUuki1/fYybzAsYjkvFQB08Qb9buyJ7gWEESKwUf//iTUzBN"
               }
+            },
+            {
+              "DatabaseId": "d33009e2-e8f2-443c-bc5a-2d7ae01c3257",
+              "DatabaseAliasName": "2dbs_2",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "user2_2dbs_2"
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "5ykAcgNlBdLSoBEskUuki1/fYybzAsYjkvFQB08Qb9buyJ7gWEESKwUf//iTUzBN"
+              }
             }
           ]
         }
