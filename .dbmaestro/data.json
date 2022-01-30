@@ -1,0 +1,30 @@
+{
+  "Projects": [
+    {
+      "GlobalData": {
+        "ProjectId": "fb49ee22-e07a-4b63-8a79-82a8aaaeb535",
+        "ProjectName": "2dbs",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 0,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\admin\\Documents\\projectName"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": []
+        }
+      ]
+    }
+  ],
+  "GlobalConfigurations": null
+}
