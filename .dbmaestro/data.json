@@ -14,14 +14,7 @@
               {
                 "DatabaseId": "d2e7dec1-1f16-4569-bd7e-68cf573d04c1",
                 "DatabaseAliasName": "2dbs_1",
-                "DatabaseConnectionDetails": {
-                  "DBTypeName": "SQL Server",
-                  "Host": "localhost",
-                  "AuthenticationType": 1,
-                  "Username": "sa",
-                  "Password": "1q2w3e4R",
-                  "DatabaseName": "2dbs_1"
-                },
+                "DatabaseConnectionDetails": null,
                 "RepositoryDetails": {
                   "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
                   "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/2dbs_1.git",
@@ -141,6 +134,33 @@
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "NSNa4flHoovJniqT4Of4qq+ToMaEbsnypA5NwsyktaOfzYGomCv21gOc4kfGa4v0"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "KyryloZhdanov",
+          "DatabasesData": [
+            {
+              "DatabaseId": "d2e7dec1-1f16-4569-bd7e-68cf573d04c1",
+              "DatabaseAliasName": "2dbs_1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "2dbs_1"
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "KyryloZhdanov",
+                "Password": "5ykAcgNlBdLSoBEskUuki1/fYybzAsYjkvFQB08Qb9buyJ7gWEESKwUf//iTUzBN"
               }
             }
           ]
