@@ -32,6 +32,17 @@
                   "RemoteBranchName": "main",
                   "LocalBranchName": "main"
                 }
+              },
+              {
+                "DatabaseId": "6c2f1482-e7f0-448d-8815-fa57661a4f97",
+                "DatabaseAliasName": "2dbs_3",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/2db_3.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
               }
             ]
           }
@@ -88,6 +99,28 @@
                     "Username": "sa",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg==",
                     "DatabaseName": "2dbs_2"
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "NSNa4flHoovJniqT4Of4qq+ToMaEbsnypA5NwsyktaOfzYGomCv21gOc4kfGa4v0"
+              }
+            },
+            {
+              "DatabaseId": "6c2f1482-e7f0-448d-8815-fa57661a4f97",
+              "DatabaseAliasName": "2dbs_3",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "localhost",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg==",
+                    "DatabaseName": "2dbs_3"
                   }
                 }
               ],
