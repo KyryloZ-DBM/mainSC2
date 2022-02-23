@@ -21,6 +21,17 @@
                   "RemoteBranchName": "main",
                   "LocalBranchName": "main"
                 }
+              },
+              {
+                "DatabaseId": "cbd86eb3-3f9d-4032-a7d1-7e87ade01064",
+                "DatabaseAliasName": "secondRepo",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/secondRepo.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
               }
             ]
           }
@@ -54,6 +65,28 @@
                     "authType": "SqlAuthentication",
                     "userName": "sa",
                     "dbName": "dbFeatureMain",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "NSNa4flHoovJniqT4Of4qq+ToMaEbsnypA5NwsyktaOfzYGomCv21gOc4kfGa4v0"
+              }
+            },
+            {
+              "DatabaseId": "cbd86eb3-3f9d-4032-a7d1-7e87ade01064",
+              "DatabaseAliasName": "secondRepo",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "localhost",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "sandboxProject2db1",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
                 }
