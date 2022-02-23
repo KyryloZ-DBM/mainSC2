@@ -5,7 +5,26 @@
         "ProjectId": "b1366547-64d5-4385-bbbd-8e069dfea81d",
         "ProjectName": "dbFeature",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "5819bb8d-abe2-467f-ae39-7b24f06b642c",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "5d262375-052f-4aa3-aa3e-1c2e2560bbfd",
+                "DatabaseAliasName": "dbFeatureMain",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/KyryloZ-DBM/dbFeature.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -21,7 +40,30 @@
       "UserData": [
         {
           "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "5d262375-052f-4aa3-aa3e-1c2e2560bbfd",
+              "DatabaseAliasName": "dbFeatureMain",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "localhost",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "dbFeatureMain",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "NSNa4flHoovJniqT4Of4qq+ToMaEbsnypA5NwsyktaOfzYGomCv21gOc4kfGa4v0"
+              }
+            }
+          ]
         }
       ]
     }
